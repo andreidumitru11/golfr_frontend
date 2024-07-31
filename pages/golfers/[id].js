@@ -58,7 +58,7 @@ const ProfilePage = () => {
         error
       ) : (
         <>
-          {userName && <h1>Scores for {userName} :</h1>}
+          {userName && <h1>Scores for {userName} : </h1>}
           {scores && scores.map(score => (
             <ScoreCard
               key={score.id}
